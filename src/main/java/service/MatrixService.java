@@ -4,7 +4,7 @@ import exception.WrongArgumentException;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class Matrix {
+public class MatrixService {
 
     public char[][] convertStringToMatrix(String string) {
         int n = (int) Math.sqrt(string.length());

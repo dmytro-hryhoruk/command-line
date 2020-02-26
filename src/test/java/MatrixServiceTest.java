@@ -2,15 +2,15 @@ import exception.WrongArgumentException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import service.Matrix;
+import service.MatrixService;
 
-public class MatrixTest {
+public class MatrixServiceTest {
     private static final String MATRIX = "ABCDEFGHI";
-    private Matrix matrix;
+    private MatrixService matrix;
 
     @Before
     public void setMatrix() {
-        matrix = new Matrix();
+        matrix = new MatrixService();
     }
 
     @Test(expected = WrongArgumentException.class)
