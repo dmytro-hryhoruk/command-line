@@ -10,7 +10,7 @@ public class MatrixService {
         int n = (int) Math.sqrt(string.length());
         if (n - Math.sqrt(string.length()) != 0) {
             throw new WrongArgumentException("the length of the string should be"
-                    + "a perfect square number");
+                    + " a perfect square number");
         }
         int index = 0;
         char[][] matrix = new char[n][n];
